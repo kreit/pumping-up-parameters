@@ -9,17 +9,26 @@ let z = 5
 let name = "Kayla"
 let greeting = "HEY"
 
-function multiply(){
-
+function multiply(num){
+  x = x * num
 }
 
-function modYBY(){
-
+function modYBy(num){
+  y = y % num
 }
 
+function opposite(num){
+  z = num * -1
+}
 
+function makeFullName(lastName){
+  name = name + " " + lastName
+}
 
+function yellAt(name){
+  greeting = greeting + ", " + name + "!"
 
+}
 
 
 
